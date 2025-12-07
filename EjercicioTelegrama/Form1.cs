@@ -36,11 +36,11 @@ namespace EjercicioTelegrama
             double coste;
 
             // telegrama urgente?
-            if (chkUrgente.Checked)
+            if (cbUrgente.Checked)
             {
                 tipoTelegrama = 'u';
             }
-            else
+            else if (cbOrdinario.Checked) 
             {
                 tipoTelegrama = 'o';
             }
