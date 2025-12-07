@@ -34,14 +34,14 @@ namespace EjercicioTelegrama
             {
                 tipoTelegrama = 'u';
             }
-            //Obtengo el número de palabras que forma el telegrama
+            //Obtengo el número de palabras que forma el telegramaaaaa
             numPalabras = textoTelegrama.Length;
             //Si el telegrama es ordinario
             if (tipoTelegrama == 'o')
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 2.5;
+                    coste = 2.50;
                 }
                 else
                 {
@@ -49,7 +49,7 @@ namespace EjercicioTelegrama
                 }
             }
             else
-            //Si el telegrama es urgente
+            //Si el telegrama es urgentesnig
             {
                 if (tipoTelegrama == 'u')
                 {
